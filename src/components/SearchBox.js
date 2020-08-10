@@ -14,7 +14,7 @@ function SearchBox(props) {
     [input, button]
   );
 
-  button.addEventListener("click", () => {
+  input.addEventListener("input", () => {
     props.onChange(input.value);
   });
 
