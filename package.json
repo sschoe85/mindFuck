@@ -1,0 +1,30 @@
+{
+  "name": "dev-issues",
+  "version": "1.0.0",
+  "description": "Issues search example",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "webpack --watch",
+    "dev:serve": "live-server dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmachens/dev-issues.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmachens/dev-issues/issues"
+  },
+  "homepage": "https://github.com/lmachens/dev-issues#readme",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "live-server": "^1.2.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

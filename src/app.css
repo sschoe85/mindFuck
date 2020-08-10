@@ -1,0 +1,20 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  margin: 40px 20px;
+}
